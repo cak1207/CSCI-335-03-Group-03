@@ -29,6 +29,8 @@ print()
 
 print(train_df.info())
 
+
+#some data has missing values for content so I have to drop them
 train_df = train_df.dropna(subset=['tweet_content'])
 print()
 
