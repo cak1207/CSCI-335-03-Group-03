@@ -1,0 +1,101 @@
+Fitting 5 folds for each of 15 candidates, totalling 75 fits
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=hinge; total time=   2.8s
+PS C:\Users\ediso\Documents\GitHub\CSCI-335-03-Group-03> & C:/Python313/python.exe c:/Users/ediso/Documents/GitHub/CSCI-335-03-Group-03/code/linear_svm.py
+Fitting 5 folds for each of 15 candidates, totalling 75 fits
+PS C:\Users\ediso\Documents\GitHub\CSCI-335-03-Group-03> & C:/Python313/python.exe c:/Users/ediso/Documents/GitHub/CSCI-335-03-Group-03/code/linear_svm.py
+PS C:\Users\ediso\Documents\GitHub\CSCI-335-03-Group-03> & C:/Python313/python.exe c:/Users/ediso/Documents/GitHub/CSCI-335-03-Group-03/code/linear_svm.py
+Fitting 5 folds for each of 15 candidates, totalling 75 fits
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=hinge; total time=   2.8s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=hinge; total time=   2.9s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=hinge; total time=   4.6s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=hinge; total time=   6.2s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=hinge; total time=   6.8s
+[CV] END ..C=1, class_weight=balanced, dual=True, loss=hinge; total time=  23.9s
+[CV] END ..C=1, class_weight=balanced, dual=True, loss=hinge; total time=  25.2s
+[CV] END ..C=1, class_weight=balanced, dual=True, loss=hinge; total time=  25.7s
+[CV] END ..C=1, class_weight=balanced, dual=True, loss=hinge; total time=  33.2s
+[CV] END ..C=1, class_weight=balanced, dual=True, loss=hinge; total time=  38.5s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   1.1s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   1.2s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   1.2s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   1.3s
+[CV] END C=0.1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   1.3s
+[CV] END C=0.1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   2.6s
+[CV] END C=0.1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   2.5s
+[CV] END C=0.1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   2.4s
+[CV] END C=0.1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   2.4s
+[CV] END C=0.1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   2.4s
+[CV] END C=1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   3.6s
+[CV] END C=1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   3.7s
+[CV] END C=1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   3.6s
+[CV] END C=1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   3.5s
+[CV] END C=1, class_weight=balanced, dual=True, loss=squared_hinge; total time=   3.6s
+[CV] END C=1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   5.0s
+[CV] END ..C=3, class_weight=balanced, dual=True, loss=hinge; total time= 1.4min
+[CV] END C=1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   4.9s
+[CV] END C=1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   4.7s
+[CV] END ..C=3, class_weight=balanced, dual=True, loss=hinge; total time= 1.5min
+[CV] END C=1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   5.4s
+[CV] END C=1, class_weight=balanced, dual=False, loss=squared_hinge; total time=   5.3s
+[CV] END C=3, class_weight=balanced, dual=True, loss=squared_hinge; total time=   7.3s
+[CV] END ..C=3, class_weight=balanced, dual=True, loss=hinge; total time= 1.7min
+[CV] END C=3, class_weight=balanced, dual=True, loss=squared_hinge; total time=   7.9s
+[CV] END C=3, class_weight=balanced, dual=True, loss=squared_hinge; total time=   7.7s
+[CV] END ..C=5, class_weight=balanced, dual=True, loss=hinge; total time= 1.7min
+[CV] END C=3, class_weight=balanced, dual=True, loss=squared_hinge; total time=   7.3s
+[CV] END C=3, class_weight=balanced, dual=True, loss=squared_hinge; total time=   8.0s
+[CV] END C=3, class_weight=balanced, dual=False, loss=squared_hinge; total time=   7.3s
+[CV] END C=3, class_weight=balanced, dual=False, loss=squared_hinge; total time=   7.9s
+[CV] END ..C=5, class_weight=balanced, dual=True, loss=hinge; total time= 1.8min
+[CV] END C=3, class_weight=balanced, dual=False, loss=squared_hinge; total time=   7.5s
+[CV] END ..C=5, class_weight=balanced, dual=True, loss=hinge; total time= 1.9min
+[CV] END C=3, class_weight=balanced, dual=False, loss=squared_hinge; total time=   7.2s
+[CV] END ..C=3, class_weight=balanced, dual=True, loss=hinge; total time= 1.9min
+[CV] END C=3, class_weight=balanced, dual=False, loss=squared_hinge; total time=   7.8s
+[CV] END ..C=3, class_weight=balanced, dual=True, loss=hinge; total time= 1.9min
+[CV] END C=5, class_weight=balanced, dual=True, loss=squared_hinge; total time=  11.2s
+[CV] END C=5, class_weight=balanced, dual=True, loss=squared_hinge; total time=  12.8s
+[CV] END C=5, class_weight=balanced, dual=True, loss=squared_hinge; total time=  12.4s
+[CV] END C=5, class_weight=balanced, dual=False, loss=squared_hinge; total time=   8.4s
+[CV] END C=5, class_weight=balanced, dual=True, loss=squared_hinge; total time=  12.2s
+[CV] END C=5, class_weight=balanced, dual=False, loss=squared_hinge; total time=  10.0s
+[CV] END C=5, class_weight=balanced, dual=False, loss=squared_hinge; total time=   8.9s
+[CV] END C=5, class_weight=balanced, dual=False, loss=squared_hinge; total time=  10.0s
+[CV] END C=5, class_weight=balanced, dual=True, loss=squared_hinge; total time=  12.0s
+[CV] END C=5, class_weight=balanced, dual=False, loss=squared_hinge; total time=  10.9s
+[CV] END C=10, class_weight=balanced, dual=False, loss=squared_hinge; total time=  10.6s
+[CV] END C=10, class_weight=balanced, dual=False, loss=squared_hinge; total time=  11.7s
+[CV] END C=10, class_weight=balanced, dual=False, loss=squared_hinge; total time=  12.7s
+[CV] END C=10, class_weight=balanced, dual=False, loss=squared_hinge; total time=  12.7s
+[CV] END C=10, class_weight=balanced, dual=True, loss=squared_hinge; total time=  20.1s
+[CV] END C=10, class_weight=balanced, dual=True, loss=squared_hinge; total time=  21.0s
+[CV] END C=10, class_weight=balanced, dual=True, loss=squared_hinge; total time=  22.2s
+[CV] END C=10, class_weight=balanced, dual=True, loss=squared_hinge; total time=  22.2s
+[CV] END C=10, class_weight=balanced, dual=True, loss=squared_hinge; total time=  22.6s
+[CV] END C=10, class_weight=balanced, dual=False, loss=squared_hinge; total time=  12.0s
+[CV] END ..C=5, class_weight=balanced, dual=True, loss=hinge; total time= 2.4min
+[CV] END .C=10, class_weight=balanced, dual=True, loss=hinge; total time= 2.7min
+[CV] END ..C=5, class_weight=balanced, dual=True, loss=hinge; total time= 3.1min
+[CV] END .C=10, class_weight=balanced, dual=True, loss=hinge; total time= 3.4min
+[CV] END .C=10, class_weight=balanced, dual=True, loss=hinge; total time= 3.3min
+[CV] END .C=10, class_weight=balanced, dual=True, loss=hinge; total time= 3.5min
+[CV] END .C=10, class_weight=balanced, dual=True, loss=hinge; total time= 4.2min
+
+Best Parameters:
+{'C': 5, 'class_weight': 'balanced', 'dual': True, 'loss': 'squared_hinge'}
+
+Best CV Score:0.7947382994257368
+
+Best Test Accuracy:0.800662206905872
+Best Test Weighted F1:0.8009043374398537
+
+Classification Report:
+              precision    recall  f1-score   support
+
+  Irrelevant       0.79      0.76      0.77      2624
+    Negative       0.85      0.82      0.83      4463
+     Neutral       0.81      0.77      0.79      3589
+    Positive       0.75      0.83      0.79      4123
+
+    accuracy                           0.80     14799
+   macro avg       0.80      0.80      0.80     14799

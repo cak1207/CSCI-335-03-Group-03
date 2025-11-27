@@ -47,3 +47,6 @@ def vectorize_text(train_text, test_text=None):
     test_vectors = tfidf.transform(test_text) if test_text is not None else None
 
     return train_vectors, test_vectors, tfidf
+
+if __name__ == "__main__":
+    print()
