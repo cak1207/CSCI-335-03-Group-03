@@ -48,5 +48,6 @@ def vectorize_text(train_text, test_text=None):
 
     return train_vectors, test_vectors, tfidf
 
+
 if __name__ == "__main__":
     print()
