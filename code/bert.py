@@ -29,7 +29,9 @@ def train_sklearn_bert_model():
         random_state=42
     )
 
-    embedder = SentenceTransformer("all-MiniLM-L12-v2")
+    # "all-MiniLM-L12-v2"
+    # "bert-base-uncased"
+    embedder = SentenceTransformer("all-mpnet-base-v2")
     np.random.seed(42)
 
     indices = np.random.choice(len(train_text), size=15000, replace=False)
@@ -67,8 +69,8 @@ def train_sklearn_bert_model():
     )
 
     grid.fit(X_small, small_y_train)
-    print("Best grid score:", grid.best_score_)
     print("Best parameters:", grid.best_params_)
+    print("Best grid score:", grid.best_score_)
 
     best_model = grid.best_estimator_
 
@@ -96,18 +98,28 @@ def train_sklearn_bert_model():
 
     # Build final pipeline + fit on training text
     final_pipe = Pipeline([
-        ("clf", RandomForestClassifier(class_weight="balanced", random_state=42))
+        ("clf", RandomForestClassifier(class_weight="balanced", random_state=42, **clf_params))
     ])
 
     print("Retraining final model on full training data with best params...")
     final_pipe.fit(X_train, y_train)
 
-    # evaluate
-    preds = final_pipe.predict(X_valid)
-    print(classification_report(y_valid, preds, target_names=encoder.classes_))
+    y_pred = final_pipe.predict(X_valid)
 
-    # weighted_f1 = f1_score(y_valid, preds, average='weighted')
-    # print("Best Test Weighted F1:", weighted_f1)r
+    print("after final pipeline: \n")
+    accuracy = accuracy_score(y_valid, y_pred)
+    weighted_f1 = f1_score(y_valid, y_pred, average='weighted')
+    weighted_precision = precision_score(y_valid, y_pred, average='weighted')
+    weighted_recall = recall_score(y_valid, y_pred, average='weighted')
+
+    print("Best parameters:", clf_params)
+    print(f"Accuracy: {accuracy:.4f}")
+    print(f"Weighted F1: {weighted_f1:.4f}")
+    print(f"Weighted Precision: {weighted_precision:.4f}")
+    print(f"Weighted Recall: {weighted_recall:.4f}\n")
+
+    print("Classification Report:")
+    print(classification_report(y_valid, y_pred, target_names=encoder.classes_))
 
     # Save final model
     os.makedirs("bert_sklearn_model", exist_ok=True)
