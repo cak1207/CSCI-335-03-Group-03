@@ -1,17 +1,4 @@
 import kagglehub
-from kagglehub import KaggleDatasetAdapter
-import pandas as pd
-from pandas import DataFrame as df
-import os
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.svm import LinearSVC
-from sklearn.metrics import classification_report
-
-
-
-import kagglehub
 import pandas as pd
 import os
 from sklearn.preprocessing import LabelEncoder

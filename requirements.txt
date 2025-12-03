@@ -1,1 +1,10 @@
 kagglehub~=0.3.13
+
+numpy~=2.2.6
+scikit-learn~=1.7.2
+pandas~=2.3.3
+joblib~=1.5.2
+pip~=25.3
+wheel~=0.37.1
+cryptography~=44.0.1
+setuptools~=60.2.0
