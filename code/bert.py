@@ -1,18 +1,15 @@
 import os
 
 import numpy as np
-import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, f1_score, accuracy_score, precision_score, recall_score
 from sentence_transformers import SentenceTransformer
 import joblib
 from sklearn.model_selection import train_test_split, StratifiedKFold, GridSearchCV
 
-from data_preprocessing import load_and_clean_data, encode_labels, vectorize_text
-
+from data_preprocessing import load_and_clean_data, encode_labels
+import pickle
 
 def train_sklearn_bert_model():
     df = load_and_clean_data()
@@ -29,9 +26,8 @@ def train_sklearn_bert_model():
         random_state=42
     )
 
-    # "all-MiniLM-L12-v2"
     # "bert-base-uncased"
-    embedder = SentenceTransformer("all-mpnet-base-v2")
+    embedder = SentenceTransformer("all-MiniLM-L12-v2")
     np.random.seed(42)
 
     indices = np.random.choice(len(train_text), size=15000, replace=False)
@@ -73,6 +69,11 @@ def train_sklearn_bert_model():
     print("Best grid score:", grid.best_score_)
 
     best_model = grid.best_estimator_
+
+    # save model
+    with open("data/best_bert_model.pkl") as f:
+        pickle.dump(best_model, f)
+    print("Model saved")
 
     X_valid = embedder.encode(valid_text, show_progress_bar=True)
     y_pred = best_model.predict(X_valid)
@@ -127,6 +128,8 @@ def train_sklearn_bert_model():
 
     print("Model and artifacts saved to bert_sklearn_model/")
 
+
+    # needs pickled
 
 if __name__ == "__main__":
     train_sklearn_bert_model()

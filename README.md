@@ -21,4 +21,4 @@ Edison Pan:
 
 To run the project, simply run the python files. They will train the model
 and print out it's performance metrics. The best model
-will then be saved in it's own file.
+will then be saved in its own file.
