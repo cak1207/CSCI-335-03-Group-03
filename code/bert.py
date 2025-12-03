@@ -71,7 +71,13 @@ def train_sklearn_bert_model():
     best_model = grid.best_estimator_
 
     # save model
-    with open("data/best_bert_model.pkl") as f:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DATA_DIR = os.path.join(BASE_DIR, "..", "data")
+    DATA_DIR = os.path.abspath(DATA_DIR)
+
+    model_path = os.path.join(DATA_DIR, "best_bert_model.pkl")
+
+    with open(model_path, "wb") as f:
         pickle.dump(best_model, f)
     print("Model saved")
 
@@ -96,6 +102,8 @@ def train_sklearn_bert_model():
     clf_params = {k.replace("clf__", ""): v for k, v in best_params.items() if k.startswith("clf__")}
 
     X_train = embedder.encode(train_text, show_progress_bar=True)
+
+
 
     # Build final pipeline + fit on training text
     final_pipe = Pipeline([
@@ -122,14 +130,6 @@ def train_sklearn_bert_model():
     print("Classification Report:")
     print(classification_report(y_valid, y_pred, target_names=encoder.classes_))
 
-    # Save final model
-    os.makedirs("bert_sklearn_model", exist_ok=True)
-    joblib.dump(final_pipe, "bert_sklearn_model/classifier_pipeline.joblib")
-
-    print("Model and artifacts saved to bert_sklearn_model/")
-
-
-    # needs pickled
 
 if __name__ == "__main__":
     train_sklearn_bert_model()

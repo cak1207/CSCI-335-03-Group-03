@@ -2,7 +2,7 @@
 
 Abstract: Our project aims to identify the
 sentiment of various tweets. We accomplish this goal
-using SVM, BERT, and DistilBERT models. This allows us to
+using SVM and BERT models. This allows us to
 compare the effectiveness of these different models at NLP sentiment
 analysis.
 
