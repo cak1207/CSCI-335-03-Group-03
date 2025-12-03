@@ -1,0 +1,170 @@
+2025-12-02 22:58:15.545975: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-02 22:58:17.247592: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\Cameron\venv\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Batches: 100%|██████████| 469/469 [02:15<00:00,  3.46it/s]
+Embedding small training subset for GridSearch...
+Fitting 3 folds for each of 48 candidates, totalling 144 fits
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  24.7s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  24.7s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  25.2s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  25.3s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  25.6s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  26.0s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  26.3s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  26.4s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  27.8s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  13.3s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  24.8s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  25.0s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  50.9s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  51.1s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  51.7s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  52.3s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  11.6s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  27.1s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  54.3s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  54.1s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  55.1s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  11.8s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  11.0s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  12.0s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  12.9s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  10.9s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  11.0s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  23.3s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  24.1s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  11.4s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  25.1s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  51.5s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  50.9s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  52.4s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  23.4s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  24.6s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  24.2s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  52.5s
+[CV] END clf__max_depth=None, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  53.3s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  10.8s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  13.2s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  23.4s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  12.5s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  23.2s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  23.5s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  22.1s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  23.6s
+[CV] END clf__max_depth=None, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  23.9s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  25.7s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  25.9s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  26.7s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  25.9s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  26.6s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  25.5s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  25.5s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  24.8s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  25.1s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  49.5s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  24.3s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  51.4s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  53.3s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  25.4s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  24.2s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  11.9s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  51.8s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  12.1s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  53.1s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  53.3s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  13.1s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  10.8s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  11.1s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  51.2s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  10.8s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  49.7s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  22.6s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  24.2s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  12.0s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  24.5s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  53.5s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  10.8s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  10.6s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  22.0s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  22.3s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  50.8s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  49.6s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  11.0s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  11.4s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  11.3s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  25.5s
+[CV] END clf__max_depth=20, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  50.0s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  22.6s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  23.9s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  23.3s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  23.5s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  24.5s
+[CV] END clf__max_depth=20, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  24.3s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  28.5s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  26.3s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  25.6s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  27.5s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  28.0s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  29.1s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  28.9s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  24.9s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  27.4s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  29.2s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  55.5s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  56.2s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  57.8s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  30.4s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  14.6s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  31.4s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  54.9s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  57.0s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  57.2s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  12.3s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=100; total time=  13.1s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  11.2s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  13.2s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  51.4s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=100; total time=  12.2s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time= 1.0min
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  23.0s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  57.4s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  11.5s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  13.8s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  53.5s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  27.1s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=2, clf__n_estimators=200; total time=  29.9s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=100; total time=  13.5s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  22.5s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  10.8s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  22.7s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  10.9s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=1, clf__min_samples_split=5, clf__n_estimators=200; total time=  25.5s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=100; total time=  11.2s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  54.1s
+[CV] END clf__max_depth=40, clf__max_features=sqrt, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  56.7s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  22.3s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  22.3s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=2, clf__n_estimators=200; total time=  21.8s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  19.2s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  18.4s
+[CV] END clf__max_depth=40, clf__max_features=log2, clf__min_samples_leaf=2, clf__min_samples_split=5, clf__n_estimators=200; total time=  18.6s
+Best grid score: 0.6123921410126165
+Best parameters: {'clf__max_depth': None, 'clf__max_features': 'sqrt', 'clf__min_samples_leaf': 2, 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+Batches: 100%|██████████| 232/232 [01:07<00:00,  3.46it/s]
+Accuracy: 0.6485
+Weighted F1: 0.6353
+Weighted Precision: 0.6736
+Weighted Recall: 0.6485
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.34      0.48      1337
+           1       0.61      0.81      0.70      2196
+           2       0.72      0.55      0.62      1801
+           3       0.62      0.77      0.68      2066
+
+    accuracy                           0.65      7400
+   macro avg       0.69      0.62      0.62      7400
+weighted avg       0.67      0.65      0.64      7400
