@@ -94,7 +94,7 @@ def train_sklearn_bert_model(train_path=None, valid_path=None):
     }
     with open(model_path, "wb") as f:
         pickle.dump(pipeline, f)
-    print("\nSaved pipeline to", pipeline) 
+    print("\nSaved pipeline to:", model_path)
 
 
 
