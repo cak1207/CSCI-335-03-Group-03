@@ -9,16 +9,15 @@ import pickle
 
 
 def load_data():
-    df = load_and_clean_data()
-    y, encoder = encode_labels(df)
-    x = df['tweet_content']
-    return df, x, y, encoder
+    train_df, valid_df = load_and_clean_data()
+    y_train, encoder = encode_labels(train_df)
+    x_train = train_df['tweet_content']
 
+    y_valid = encoder.transform(valid_df['sentiment'])
+    x_valid = valid_df['tweet_content']
 
-def split_data(x, y):
-    return train_test_split(
-        x, y, test_size=0.2, random_state=42
-    )
+    return x_train, y_train, x_valid, y_valid, encoder
+
 
 
 def run_grid_search(x_train_small, y_train_small):
@@ -101,16 +100,15 @@ def evaluate_model(grid, x_test_tfidf, y_test, encoder):
 
 
 def main():
-    df, x, y, encoder = load_data()
-    x_train, x_test, y_train, y_test = split_data(x, y)
-    x_train_tfidf, x_test_tfidf, tfidf = vectorize_text(x_train, x_test)
+    x_train, y_train, x_valid, y_valid, encoder = load_data()
+    x_train_tfidf, x_valid_tfidf, tfidf = vectorize_text(x_train, x_valid)
 
     range = np.random.choice(x_train_tfidf.shape[0], size=15000, replace=False)
     x_train_small = x_train_tfidf[range]
     y_train_small = y_train[range]
 
     grid = run_grid_search(x_train_small, y_train_small)
-    best_model = evaluate_model(grid, x_test_tfidf, y_test, encoder)
+    best_model = evaluate_model(grid, x_valid_tfidf, y_valid, encoder)
     build_svm_pipeline(best_model, tfidf, encoder)
 
 

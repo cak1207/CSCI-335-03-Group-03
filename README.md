@@ -19,6 +19,9 @@ Edison Pan:
 - SVM model
 - CLI to test models
 
+To run the project, simply run the python files. They will train the model
+and print out it's performance metrics. The best model
+will then be saved in its own file.
 
 To run the models use the cli.py
 Usage is python code/cli.py model_type predict_input_path output_path
