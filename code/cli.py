@@ -41,7 +41,7 @@ def main():
         #stubbed out bert stuff
         print(X)
 
-    df["predicted_sentiment"] = label_encoder.inverse_transform(preds)
+    df["predicted"] = label_encoder.inverse_transform(preds)
     
     df.to_csv(output_path, index=False, encoding="utf-8")
     print(f"Predictions saved to {output_path}")

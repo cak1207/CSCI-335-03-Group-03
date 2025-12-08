@@ -28,6 +28,10 @@ Usage is python code/cli.py model_type predict_input_path output_path
 Example: python code/cli.py svm data/twitter_validation.csv twitter_validation_pred.csv
 
 Make sure model_type is svm or bert and that both input_path and output_path are .csv
+the input csv should have 4 columns each being "tweet_id", "entity", "sentiment", "tweet_content"
+the output csv will be the same as input csv but will add a new column called predicted
+which will give the predicted sentiment of the tweet.
+
 Based off model_type the program will use the model in best_svm_pipeline.pkl or best_bert_pipeline.pkl
 which are located in the data directory to predict the input_file given. Then it will give save the 
 results to the output_file name given and the output_file name will be located in the data directory. 
