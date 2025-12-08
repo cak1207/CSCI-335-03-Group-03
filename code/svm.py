@@ -93,9 +93,8 @@ def evaluate_model(grid, x_test_tfidf, y_test, encoder):
     print("\nBest CV Score:", grid.best_score_)
     print("Best Test Weighted F1:", weighted_f1)
     print("Best Test Accuracy:", accuracy)
-
-    print("\nPrecision (weighted):", precision)
-    print("Recall (weighted):", recall)
+    print("Weighted Precision:", precision)
+    print("Weighted Recall :", recall)
 
     print("\nClassification Report:")
     print(classification_report(y_test, y_pred, target_names=encoder.classes_))

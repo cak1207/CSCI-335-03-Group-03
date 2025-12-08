@@ -575,9 +575,8 @@ Best Parameters:
 Best CV Score: 0.7425523839186339
 Best Test Weighted F1: 0.7871580654828669
 Best Test Accuracy: 0.7881613622542064
-
-Precision (weighted): 0.7908361714875021
-Recall (weighted): 0.7881613622542064
+Weighted Precision: 0.7908361714875021
+Weighted Recall: 0.7881613622542064
 
 Classification Report:
               precision    recall  f1-score   support
