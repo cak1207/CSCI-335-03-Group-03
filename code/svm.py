@@ -5,6 +5,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVC
 import numpy as np
 import pickle
+import os
 
 
 
@@ -70,7 +71,7 @@ def build_svm_pipeline(best_model, tfidf, encoder, filename="best_svm_pipeline.p
         "tfidf": tfidf,
         "label_encoder": encoder
     }
-
+    filename = os.path.join("data", filename)
     with open(filename, "wb") as f:
         pickle.dump(pipeline, f)
 
