@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report,accuracy_score,f1_score, preci
 
 def main():
     if len(sys.argv) != 4:
-        sys.exit(1)
+        return
 
     model_type = sys.argv[1]
     input_path = sys.argv[2]
