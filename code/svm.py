@@ -21,9 +21,6 @@ def split_data(x, y):
     )
 
 
-
-
-
 def run_grid_search(x_train_small, y_train_small):
     svc = SVC(max_iter=100000)
     param_grid = [
