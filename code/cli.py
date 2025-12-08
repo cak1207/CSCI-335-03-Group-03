@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score, f1_score, precision_score, recall_score
 import bert
 import svm
+from sentence_transformers import SentenceTransformer
 
 def main():
     print("Sentiment Analysis of Twitter Data:")
@@ -60,8 +61,8 @@ def main():
             preds = model.predict(X)
 
         if model_type == "bert":
-            from sentence_transformers import SentenceTransformer
-            embedder = pipeline.get("embedder")
+            embedder = SentenceTransformer(pipeline["embedder_name"])
+
 
             X = embedder.encode(df["tweet_content"].tolist(), show_progress_bar=True)
             preds = model.predict(X)
