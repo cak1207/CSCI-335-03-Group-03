@@ -5,7 +5,6 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, f1_score, accuracy_score, precision_score, recall_score
 from sentence_transformers import SentenceTransformer
-import joblib
 from sklearn.model_selection import train_test_split, StratifiedKFold, GridSearchCV
 
 from data_preprocessing import load_and_clean_data, encode_labels
@@ -25,6 +24,7 @@ def train_sklearn_bert_model():
         test_size=0.1,
         random_state=42
     )
+
 
     # "bert-base-uncased"
     embedder = SentenceTransformer("all-MiniLM-L12-v2")
@@ -77,10 +77,12 @@ def train_sklearn_bert_model():
 
     model_path = os.path.join(DATA_DIR, "best_bert_model.pkl")
 
+    # needs to pickle pipeline w/ encoder and model
     with open(model_path, "wb") as f:
         pickle.dump(best_model, f)
     print("Model saved")
 
+def test_bert_model(embedder, valid_text, best_model, y_valid):
     X_valid = embedder.encode(valid_text, show_progress_bar=True)
     y_pred = best_model.predict(X_valid)
 
@@ -96,39 +98,6 @@ def train_sklearn_bert_model():
 
     print("Classification Report:")
     print(classification_report(y_valid, y_pred))
-
-
-    best_params = grid.best_params_
-    clf_params = {k.replace("clf__", ""): v for k, v in best_params.items() if k.startswith("clf__")}
-
-    X_train = embedder.encode(train_text, show_progress_bar=True)
-
-
-
-    # Build final pipeline + fit on training text
-    final_pipe = Pipeline([
-        ("clf", RandomForestClassifier(class_weight="balanced", random_state=42, **clf_params))
-    ])
-
-    print("Retraining final model on full training data with best params...")
-    final_pipe.fit(X_train, y_train)
-
-    y_pred = final_pipe.predict(X_valid)
-
-    print("after final pipeline: \n")
-    accuracy = accuracy_score(y_valid, y_pred)
-    weighted_f1 = f1_score(y_valid, y_pred, average='weighted')
-    weighted_precision = precision_score(y_valid, y_pred, average='weighted')
-    weighted_recall = recall_score(y_valid, y_pred, average='weighted')
-
-    print("Best parameters:", clf_params)
-    print(f"Accuracy: {accuracy:.4f}")
-    print(f"Weighted F1: {weighted_f1:.4f}")
-    print(f"Weighted Precision: {weighted_precision:.4f}")
-    print(f"Weighted Recall: {weighted_recall:.4f}\n")
-
-    print("Classification Report:")
-    print(classification_report(y_valid, y_pred, target_names=encoder.classes_))
 
 
 if __name__ == "__main__":
