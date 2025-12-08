@@ -35,8 +35,7 @@ which will give the predicted sentiment of the tweet.
 Based off model_type the program will use the model in best_svm_pipeline.pkl or best_bert_pipeline.pkl
 which are located in the data directory to predict the input_file given. Then it will give save the 
 results to the output_file name given and the output_file name will be located in the data directory. 
-To make things easier a sample test input file is given as data/twitter_validation.csv. However this is
-the same validation data that we used for validation when doing grid search on our models. Thus
-results will reflect performance on previously seen validation data instead of new unseen data if
-using this file.  After the output is saved, evaluation metrics will also be printed out as well as
+To make things easier a sample test input file is given as data/twitter_validation.csv. Keep in mind that
+this is the same validation data that we used for validation when doing grid search on our models.
+ After the output is saved, evaluation metrics will also be printed out as well as
 classification report
