@@ -59,9 +59,12 @@ def main():
             X = tfidf.transform(df["tweet_content"])
             preds = model.predict(X)
 
-
         if model_type == "bert":
-            bert.test_bert_model()
+            from sentence_transformers import SentenceTransformer
+            embedder = SentenceTransformer("all-MiniLM-L12-v2")
+
+            X = embedder.encode(df["tweet_content"].tolist(), show_progress_bar=True)
+            preds = model.predict(X)
 
         df["predicted"] = label_encoder.inverse_transform(preds)
 

@@ -75,29 +75,28 @@ def train_sklearn_bert_model():
     DATA_DIR = os.path.join(BASE_DIR, "..", "data")
     DATA_DIR = os.path.abspath(DATA_DIR)
 
-    model_path = os.path.join(DATA_DIR, "best_bert_model.pkl")
+    model_path = os.path.join(DATA_DIR, "best_bert_pipeline.pkl")
 
     # needs to pickle pipeline w/ encoder and model
+    pipeline = {
+        "model": best_model,
+        "label_encoder": encoder
+    }
     with open(model_path, "wb") as f:
-        pickle.dump(best_model, f)
-    print("Model saved")
-
-def test_bert_model(embedder, valid_text, best_model, y_valid):
+        pickle.dump(pipeline, f)
+    print("\nSaved pipeline to", pipeline) 
     X_valid = embedder.encode(valid_text, show_progress_bar=True)
     y_pred = best_model.predict(X_valid)
-
     accuracy = accuracy_score(y_valid, y_pred)
     weighted_f1 = f1_score(y_valid, y_pred, average='weighted')
     weighted_precision = precision_score(y_valid, y_pred, average='weighted')
     weighted_recall = recall_score(y_valid, y_pred, average='weighted')
 
-    print(f"Accuracy: {accuracy:.4f}")
-    print(f"Weighted F1: {weighted_f1:.4f}")
-    print(f"Weighted Precision: {weighted_precision:.4f}")
-    print(f"Weighted Recall: {weighted_recall:.4f}\n")
+    
 
-    print("Classification Report:")
-    print(classification_report(y_valid, y_pred))
+
+
+
 
 
 if __name__ == "__main__":
