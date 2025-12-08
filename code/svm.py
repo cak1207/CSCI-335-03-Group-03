@@ -8,8 +8,8 @@ import pickle
 
 
 
-def load_data():
-    train_df, valid_df = load_and_clean_data()
+def load_data(train_path=None, valid_path=None):
+    train_df, valid_df = load_and_clean_data(train_path, valid_path)
     y_train, encoder = encode_labels(train_df)
     x_train = train_df['tweet_content']
 
@@ -17,6 +17,8 @@ def load_data():
     x_valid = valid_df['tweet_content']
 
     return x_train, y_train, x_valid, y_valid, encoder
+
+
 
 
 
@@ -99,8 +101,8 @@ def evaluate_model(grid, x_test_tfidf, y_test, encoder):
 
 
 
-def main():
-    x_train, y_train, x_valid, y_valid, encoder = load_data()
+def train_sklearn_svn_model(train_path=None, valid_path=None):
+    x_train, y_train, x_valid, y_valid, encoder = load_data(train_path, valid_path)
     x_train_tfidf, x_valid_tfidf, tfidf = vectorize_text(x_train, x_valid)
 
     range = np.random.choice(x_train_tfidf.shape[0], size=15000, replace=False)
@@ -113,4 +115,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    train_sklearn_svn_model()

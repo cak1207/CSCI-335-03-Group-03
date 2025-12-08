@@ -9,7 +9,7 @@ import svm
 
 def main():
     print("Sentiment Analysis of Twitter Data:")
-    print("Usage: python code/cli.py model_type train/test predict_input_path output_path")
+    print("Usage: python code/cli.py model_type train/test path_1 path_2")
 
     if len(sys.argv) != 5:
         print("Error: Command needs 5 arguments")
@@ -23,20 +23,21 @@ def main():
     if action_type != "train" and action_type != "test":
         print("Error: argument 2, '" + action_type + "' must be either 'train' or 'test'")
         return
-    input_path = sys.argv[3]
-    output_csv = sys.argv[4]
-    output_path = os.path.join("data", output_csv) 
+    path_1 = sys.argv[3]
+    path_2 = sys.argv[4]
 
 
     if action_type == "train":
         if model_type == "svm":
-            svm.main()
+            svm.train_sklearn_svn_model(path_1, path_2)
         if model_type == "bert":
             bert.train_sklearn_bert_model()
 
 
     if action_type == "test":
-        df = pd.read_csv(input_path, encoding="utf-8", engine="python", on_bad_lines="skip")
+        output_path = os.path.join("data", path_2) 
+
+        df = pd.read_csv(path_1, encoding="utf-8", engine="python", on_bad_lines="skip")
         df.columns = ["tweet_id", "entity", "sentiment", "tweet_content"]
 
         if model_type == "svm":
