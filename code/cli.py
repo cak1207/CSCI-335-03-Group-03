@@ -42,7 +42,10 @@ def main():
         print(X)
 
     df["predicted_sentiment"] = label_encoder.inverse_transform(preds)
+    
     df.to_csv(output_path, index=False, encoding="utf-8")
+    print(f"Predictions saved to {output_path}")
+
     y_true = label_encoder.transform(df["sentiment"])
     y_pred = preds
 
@@ -56,7 +59,6 @@ def main():
     print(f"Weighted Recall: {rec:}")
     print("\nClassification Report:")
     print(classification_report(y_true, y_pred, target_names=label_encoder.classes_))
-    print(f"Predictions saved to {output_path}")
 
 if __name__ == "__main__":
     main()
