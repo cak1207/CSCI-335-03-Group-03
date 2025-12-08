@@ -32,7 +32,7 @@ def main():
         if model_type == "svm":
             svm.train_sklearn_svn_model(path_1, path_2)
         if model_type == "bert":
-            bert.train_sklearn_bert_model()
+            bert.train_sklearn_bert_model(path_1, path_2)
 
 
     if action_type == "test":
@@ -61,9 +61,7 @@ def main():
             preds = model.predict(X)
 
         if model_type == "bert":
-            embedder = SentenceTransformer(pipeline["embedder_name"])
-
-
+            embedder = SentenceTransformer(pipeline["embedder"])
             X = embedder.encode(df["tweet_content"].tolist(), show_progress_bar=True)
             preds = model.predict(X)
 
@@ -82,7 +80,7 @@ def main():
         print(f"Accuracy: {acc}")
         print(f"Weighted F1: {f1}")
         print(f"Weighted Precision: {prec}")
-        print(f"Weighted Recall: {rec:}")
+        print(f"Weighted Recall: {rec}")
         print("\nClassification Report:")
         print(classification_report(y_true, y_pred, target_names=label_encoder.classes_))
 
