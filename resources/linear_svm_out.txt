@@ -1,522 +1,515 @@
 Fitting 5 folds for each of 105 candidates, totalling 525 fits
-[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  23.2s
-[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  23.9s
-[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  24.2s
-[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  24.5s
-[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  24.6s
-[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  24.6s
-[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  24.6s
-[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  24.8s
-[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  24.8s
-[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  25.2s
+[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  24.1s
+[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  25.1s
+[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  26.4s
+[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  26.8s
+[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  26.9s
+[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  27.1s
+[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  28.0s
+[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  28.5s
+[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  28.5s
+[CV] END ..........C=3, class_weight=balanced, kernel=linear; total time=  28.9s
+[CV] END ..........C=1, class_weight=balanced, kernel=linear; total time=  29.4s
+[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  34.7s
+[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  35.0s
+[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  35.2s
+[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  35.8s
+[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  37.4s
+[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  24.9s
+[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  24.3s
 [CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  26.0s
-[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  30.9s
-[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  31.5s
-[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  32.2s
-[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  32.5s
-[CV] END ........C=0.1, class_weight=balanced, kernel=linear; total time=  32.7s
-[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  23.6s
-[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  25.3s
-[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  24.7s
-[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  25.2s
-[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  25.5s
-[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  26.0s
+[CV] END ..........C=5, class_weight=balanced, kernel=linear; total time=  25.8s
+[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  26.5s
+[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  25.1s
 [CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  26.1s
-[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  26.0s
-[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  26.0s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.1s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.7s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.9s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.1s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.4s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  38.3s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.2s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.4s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  37.6s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.8s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  38.1s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  40.4s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  40.9s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  40.1s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  40.3s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  41.9s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  38.8s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  39.8s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  39.3s
-[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  37.9s
-[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  37.9s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  40.4s
-[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.3s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  33.1s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  35.0s
-[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.2s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  35.2s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.4s
-[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.6s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  35.8s
-[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  37.9s
-[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.8s
-[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.6s
-[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.0s
-[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  38.7s
-[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  40.1s
-[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  38.9s
-[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  41.0s
-[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  40.6s
-[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  33.5s
-[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  34.8s
-[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  39.1s
-[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  33.8s
-[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  34.0s
-[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  35.3s
-[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  34.9s
-[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  34.1s
-[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  34.6s
-[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  34.4s
-[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  34.8s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.0s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.4s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.1s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  37.4s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.8s
-[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  38.2s
-[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.5s
-[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  36.9s
-[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  35.9s
-[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.9s
-[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.5s
-[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.7s
-[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.8s
-[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  35.8s
-[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.9s
-[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  38.8s
-[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  29.4s
-[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.4s
-[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  30.8s
-[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  30.7s
-[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.1s
-[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.6s
+[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  27.5s
+[CV] END .........C=10, class_weight=balanced, kernel=linear; total time=  26.9s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  39.7s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  42.3s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  39.3s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.3s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  40.8s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  42.5s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.4s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  40.7s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  42.6s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  39.9s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.9s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  40.9s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  40.0s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  41.8s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  40.6s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  42.6s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  41.0s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  40.8s
+[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.9s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  40.7s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  41.9s
+[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  40.2s
+[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.9s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.2s
+[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  40.3s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  35.3s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.6s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.5s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=rbf; total time=  37.8s
+[CV] END ..C=0.1, class_weight=balanced, gamma=1, kernel=rbf; total time=  41.7s
+[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.3s
+[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.1s
+[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  42.0s
+[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  40.7s
+[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  44.5s
+[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  40.8s
+[CV] END .C=1, class_weight=balanced, gamma=auto, kernel=rbf; total time=  42.0s
+[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  42.4s
+[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  42.6s
+[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  36.5s
+[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  39.1s
+[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  37.7s
+[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  36.9s
+[CV] END ..C=1, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  37.2s
+[CV] END .C=1, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  43.5s
+[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.1s
+[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.3s
+[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.6s
+[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.8s
+[CV] END ....C=1, class_weight=balanced, gamma=1, kernel=rbf; total time=  40.1s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  43.6s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  44.6s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  46.3s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  43.6s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=rbf; total time=  44.5s
+[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  47.1s
+[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  45.6s
+[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  46.9s
+[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  44.5s
+[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  47.7s
+[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  45.6s
+[CV] END .C=3, class_weight=balanced, gamma=auto, kernel=rbf; total time=  48.2s
+[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  45.5s
+[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  45.8s
+[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  33.3s
+[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  33.0s
+[CV] END .C=3, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  42.5s
+[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  32.6s
+[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  31.4s
+[CV] END ..C=3, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  32.8s
+[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.8s
+[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  37.0s
 [CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  37.9s
-[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.0s
-[CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.3s
+[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.6s
 [CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.0s
-[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  40.0s
-[CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  39.6s
-[CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  39.0s
+[CV] END ....C=3, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.4s
+[CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  37.8s
 [CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  40.7s
-[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  43.2s
-[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  36.8s
-[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.0s
-[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.6s
-[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  44.1s
-[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  43.5s
-[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.8s
-[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.0s
-[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.9s
-[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  27.9s
-[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  29.2s
-[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  27.3s
-[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  35.0s
-[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  36.3s
-[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.1s
-[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.8s
-[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.4s
-[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.8s
-[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.4s
-[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  37.0s
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  35.6s
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.9s
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.0s
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  37.1s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  37.3s
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  38.9s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  37.9s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.0s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  33.8s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.0s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.5s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  33.0s
-[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  26.2s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  32.6s
-[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  27.2s
-[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.3s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  32.7s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  32.7s
+[CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  40.8s
+[CV] END C=5, class_weight=balanced, gamma=scale, kernel=rbf; total time=  37.5s
+[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.6s
+[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.3s
+[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  40.5s
+[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.9s
+[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  42.2s
+[CV] END .C=5, class_weight=balanced, gamma=auto, kernel=rbf; total time=  41.7s
+[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.4s
+[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  30.0s
+[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  29.5s
+[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  27.8s
+[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.5s
+[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  31.8s
+[CV] END ..C=5, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  29.9s
+[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.4s
+[CV] END .C=5, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.9s
+[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.4s
+[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.5s
+[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.2s
+[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.6s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  36.2s
+[CV] END ....C=5, class_weight=balanced, gamma=1, kernel=rbf; total time=  41.1s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  40.5s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  40.2s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  39.4s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  34.8s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=rbf; total time=  41.1s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  39.3s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  40.5s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  42.4s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  40.6s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=rbf; total time=  40.4s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  34.5s
+[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.1s
 [CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  27.5s
-[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  26.9s
-[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  37.7s
-[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  36.9s
-[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.5s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  35.4s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  33.5s
+[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  27.8s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=rbf; total time=  37.6s
+[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.6s
+[CV] END .C=10, class_weight=balanced, gamma=0.1, kernel=rbf; total time=  28.3s
+[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  37.6s
 [CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  38.9s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  37.9s
-[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.1s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  37.2s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  36.9s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  35.4s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  37.5s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  36.6s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  37.7s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  38.8s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.4s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.0s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.1s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  39.5s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  40.2s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  37.5s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  41.4s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  39.1s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  42.0s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.2s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  41.1s
+[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  40.4s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.4s
+[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  39.7s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.6s
+[CV] END ...C=10, class_weight=balanced, gamma=1, kernel=rbf; total time=  40.7s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  40.1s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.0s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.0s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  39.4s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  39.3s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.2s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  38.7s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.3s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  42.1s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  39.1s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  37.9s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  40.5s
 [CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  37.7s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  37.4s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  40.1s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  38.7s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  37.0s
-[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  38.9s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  36.7s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  40.5s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  41.7s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  43.0s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  39.8s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  38.5s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  41.8s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  37.5s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  39.8s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  40.6s
+[CV] END C=0.1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  38.4s
 [CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  37.9s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  36.3s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  38.4s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  36.3s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  35.8s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  36.1s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  35.9s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.1s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  36.5s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.6s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.1s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.1s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  35.2s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.0s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.6s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  36.0s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  36.2s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.5s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.7s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  36.1s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.0s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.9s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.3s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  34.8s
-[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  37.2s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  34.9s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  34.0s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  35.2s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  35.5s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  36.9s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  36.7s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  37.3s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  38.2s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  36.4s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  35.8s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  35.7s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  37.7s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.8s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  37.3s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  35.0s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  36.6s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  37.0s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  37.0s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  35.8s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  35.6s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  35.7s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  33.3s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  34.2s
-[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  36.4s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  34.9s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  40.3s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  38.7s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  38.8s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  38.2s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  39.1s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  39.3s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  40.1s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  39.9s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  40.5s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.4s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  39.5s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  40.0s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.9s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.7s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  39.4s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  38.5s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  38.8s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  39.4s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  39.6s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  39.2s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  38.5s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  39.3s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  39.7s
+[CV] END C=0.1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  38.8s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.8s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.2s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.0s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  37.1s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  37.3s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.2s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  39.8s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  39.2s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  39.7s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.8s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  40.3s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.9s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  41.5s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  39.8s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.6s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  39.2s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.3s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  39.7s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  36.6s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.2s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.2s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  38.7s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  37.7s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  36.5s
+[CV] END C=1, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  39.3s
 [CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  36.3s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.7s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  36.1s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  37.1s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  36.9s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.4s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  38.3s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  38.3s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  39.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  39.0s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  37.8s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  38.6s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  39.7s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  40.2s
 [CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  38.9s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.7s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.9s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.7s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.6s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.6s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  39.3s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  36.9s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  35.2s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  35.5s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  36.6s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.7s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  36.7s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  34.9s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  36.0s
-[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  34.6s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  34.3s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  34.8s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  36.1s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  36.4s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  35.1s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  37.9s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  37.9s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.0s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  41.7s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.6s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  44.5s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  41.7s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  41.0s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  41.5s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  42.8s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.3s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.7s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.3s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  42.7s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  39.6s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  41.4s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  37.5s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  37.9s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  35.9s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.2s
-[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  38.1s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  36.2s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.5s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  37.4s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.9s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  35.6s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  36.5s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.8s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  36.8s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  38.1s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.4s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.1s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.6s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.8s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.8s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  36.6s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.2s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  35.4s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  35.5s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  35.2s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  33.9s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.1s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.9s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  34.0s
-[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.1s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  38.8s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.9s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  39.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.1s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  39.1s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  38.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  40.2s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  38.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  38.6s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.2s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  39.7s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  36.3s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  37.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  36.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  37.5s
+[CV] END C=1, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  38.5s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.6s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  37.4s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.5s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  40.6s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  41.4s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  42.0s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  46.2s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  47.3s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  47.8s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  49.7s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  50.9s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  50.2s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  48.7s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  48.3s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  47.1s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  47.4s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  50.5s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  50.8s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  49.2s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  48.4s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  47.5s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  47.3s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  44.6s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  42.8s
+[CV] END C=3, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  40.3s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  40.8s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  41.4s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  42.2s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  42.3s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  42.7s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  43.9s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  40.2s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  40.7s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  39.9s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  44.5s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  40.9s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  41.1s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  39.5s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  39.7s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.5s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  39.7s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.1s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  38.5s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  38.2s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  39.0s
 [CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  37.8s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  35.4s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  36.4s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  38.6s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  37.7s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  35.9s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  36.4s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  35.2s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  38.2s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  37.4s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  37.6s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  36.9s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  36.7s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.2s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  35.5s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  36.8s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  36.6s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  35.5s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  35.1s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  34.4s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  36.8s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  34.6s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  35.2s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  32.3s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  34.8s
-[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  34.5s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  34.1s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.4s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  33.2s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.0s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  34.3s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  33.9s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  35.6s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.2s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  36.3s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.8s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.7s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  35.1s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.5s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  34.2s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  34.8s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  35.9s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.7s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  32.6s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.8s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  35.6s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  33.4s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  34.8s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  34.5s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  35.5s
-[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  38.5s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  34.4s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  36.6s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  36.4s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  35.7s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  36.2s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  37.2s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  39.3s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  38.9s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.1s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  39.2s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  39.1s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.0s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  39.8s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  38.6s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  38.6s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  41.8s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.4s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  38.3s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  37.1s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  36.7s
+[CV] END C=3, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  39.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  40.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  41.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  41.0s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  42.4s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  47.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  48.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  49.5s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  48.1s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  48.6s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  47.8s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  51.0s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  50.4s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  50.3s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  49.6s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  49.7s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  50.7s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  46.9s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  45.3s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  51.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  44.9s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  40.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  42.2s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  42.9s
+[CV] END C=5, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  42.1s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  43.6s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  41.5s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  42.9s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  40.4s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  42.4s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  44.6s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  43.3s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  43.4s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  43.0s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  43.4s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  44.3s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  43.2s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  43.1s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  43.6s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  42.8s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  43.1s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  43.7s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  43.1s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  41.7s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  41.2s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  44.5s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  40.6s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  41.3s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  41.4s
+[CV] END C=5, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  40.5s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  41.4s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  41.3s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  42.5s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  43.6s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=scale, kernel=poly; total time=  41.7s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  41.1s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  42.1s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  40.1s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  42.3s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  40.5s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  42.0s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=auto, kernel=poly; total time=  42.9s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  39.7s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  41.5s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  40.0s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.01, kernel=poly; total time=  42.0s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  38.4s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  37.6s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  38.1s
 [CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  38.0s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  37.4s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=0.1, kernel=poly; total time=  37.1s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  35.5s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  36.1s
 [CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  37.5s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  39.0s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  41.1s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  39.5s
-[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  40.3s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  39.2s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  41.0s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  38.5s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  38.5s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  41.9s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  42.7s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  43.0s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  43.5s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  44.1s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  41.9s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  44.1s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  43.0s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  41.4s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  41.6s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  42.9s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  42.1s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  40.7s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  41.0s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  41.7s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  41.7s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  41.1s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  39.7s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  38.8s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  40.0s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  39.7s
-[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  40.3s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  35.4s
+[CV] END C=10, class_weight=balanced, degree=2, gamma=1, kernel=poly; total time=  36.8s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  34.7s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.2s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  37.2s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  35.9s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=scale, kernel=poly; total time=  34.6s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.1s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.6s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  39.5s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  37.9s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=auto, kernel=poly; total time=  38.6s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.4s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  36.8s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  39.0s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  39.2s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.01, kernel=poly; total time=  37.9s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  36.8s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  38.8s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.4s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  37.5s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.4s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=0.1, kernel=poly; total time=  40.0s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  34.9s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  36.4s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.2s
+[CV] END C=10, class_weight=balanced, degree=3, gamma=1, kernel=poly; total time=  35.5s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  35.7s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  36.0s
 [CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  37.7s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  39.4s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  38.4s
-[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  40.1s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.5s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  43.4s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.8s
-[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.0s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  37.0s
+[CV] END C=0.1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  37.1s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.4s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.7s
 [CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.1s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.8s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  43.1s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  42.2s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.3s
-[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  41.7s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  39.1s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  40.0s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  38.0s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  39.7s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  29.3s
-[CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  36.7s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.1s
+[CV] END C=0.1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  39.7s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.2s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  41.4s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.2s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.0s
+[CV] END C=0.1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.3s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  41.2s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  39.0s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  41.8s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  27.7s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  41.4s
+[CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  38.7s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.0s
+[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  40.6s
+[CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  36.5s
 [CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.4s
-[CV] END C=0.1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  40.0s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.9s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  27.2s
 [CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  38.1s
+[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.3s
 [CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  36.3s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  30.7s
-[CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  37.7s
-[CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  38.8s
-[CV] END C=1, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  31.3s
-[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.4s
-[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  43.8s
-[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.4s
-[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.7s
-[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.8s
-[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.2s
-[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.5s
+[CV] END C=0.1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  38.0s
+[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  39.4s
+[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.3s
+[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  39.7s
+[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.9s
+[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.7s
+[CV] END C=1, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  39.9s
+[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.7s
+[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  37.6s
 [CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  41.2s
-[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  36.8s
-[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  37.8s
-[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  36.7s
-[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  42.7s
-[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  37.3s
-[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.4s
-[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  41.4s
-[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  36.3s
-[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.4s
-[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.4s
-[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.8s
-[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  26.5s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  29.1s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  26.8s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  26.6s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  27.3s
-[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.6s
-[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  37.9s
-[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  38.7s
-[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  39.3s
-[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  38.2s
-[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.0s
-[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.5s
+[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  38.3s
+[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.5s
+[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.7s
+[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  35.9s
+[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  38.5s
+[CV] END C=1, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  38.9s
+[CV] END C=1, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  41.2s
+[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.0s
+[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.7s
+[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.5s
+[CV] END C=1, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.0s
+C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  warnings.warn(
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  27.0s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  29.0s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  27.8s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  27.9s
+[CV] END C=3, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  29.5s
+[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  39.8s
+[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.3s
+[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.6s
+[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.9s
 [CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.8s
-[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.5s
-[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.8s
+[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.7s
+[CV] END C=3, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.6s
+[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.8s
+[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.9s
+[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.5s
+[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  33.7s
+[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.9s
+[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.6s
+[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  30.9s
+[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  32.6s
+[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.2s
+[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  26.6s
+[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.9s
+[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.1s
+[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.3s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  38.4s
-[CV] END C=3, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.0s
-[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.0s
-[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.5s
-[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.0s
-[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.8s
-[CV] END C=3, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  32.2s
+C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  warnings.warn(
+[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.3s
+[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  31.6s
+[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  30.3s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
-  warnings.warn(
-C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
-  warnings.warn(
-[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.5s
-C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
-  warnings.warn(
-[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.5s
-[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  27.9s
-[CV] END C=3, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.7s
-[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.5s
-[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  27.7s
+[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  30.2s
 [CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.9s
+[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  39.3s
+[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.8s
+[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.0s
+[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.2s
+[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.4s
+[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  30.3s
+[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.9s
+[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  43.1s
+[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  30.7s
+[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  30.4s
+[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  38.8s
+[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  32.6s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  29.0s
+[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  29.8s
+[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.4s
+[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.4s
+[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  30.0s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=5, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.0s
-[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.2s
-[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.6s
-[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.5s
-[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.0s
-[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.8s
-[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  28.8s
-[CV] END C=5, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.7s
-[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  30.1s
-[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  32.1s
-[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  41.9s
-[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.3s
-[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  38.1s
-[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  38.3s
-[CV] END C=5, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  31.3s
-[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  29.7s
-[CV] END C=5, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  44.1s
-C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
-  warnings.warn(
-C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
-  warnings.warn(
-[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.8s
-[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  26.7s
+[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  30.1s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
@@ -527,65 +520,68 @@ C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.
   warnings.warn(
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.5s
-[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  29.8s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.3s
-[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  30.7s
+[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  30.2s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.2s
+C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  warnings.warn(
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  29.3s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.4s
+[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  31.7s
+[CV] END C=5, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  30.1s
 [CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  30.2s
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  30.3s
-[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  29.4s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  45.0s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  46.1s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  45.2s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  43.6s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  44.1s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  46.4s
-[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  51.5s
-[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  32.3s
-[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  33.7s
+[CV] END C=10, class_weight=balanced, gamma=scale, kernel=sigmoid; total time=  28.9s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.1s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  37.2s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.7s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  36.8s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  40.7s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  41.2s
+[CV] END C=10, class_weight=balanced, gamma=auto, kernel=sigmoid; total time=  42.1s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  32.1s
-[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  33.1s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  40.5s
-[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  32.8s
-[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  33.1s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  42.3s
-[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  39.5s
+[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  27.9s
+[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  27.7s
+[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  27.4s
+[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  28.4s
+[CV] END C=10, class_weight=balanced, gamma=0.1, kernel=sigmoid; total time=  29.0s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  37.0s
+[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  28.0s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  34.7s
+[CV] END C=10, class_weight=balanced, gamma=0.01, kernel=sigmoid; total time=  36.0s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  26.7s
+[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  25.4s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  26.3s
-[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  24.3s
 C:\Users\ediso\AppData\Roaming\Python\Python313\site-packages\sklearn\svm\_base.py:305: ConvergenceWarning: Solver terminated early (max_iter=100000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
   warnings.warn(
-[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  22.0s
+[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  24.1s
+[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  24.6s
+[CV] END C=10, class_weight=balanced, gamma=1, kernel=sigmoid; total time=  24.8s
 
 Best Parameters:
 {'C': 3, 'class_weight': 'balanced', 'degree': 2, 'gamma': 1, 'kernel': 'poly'}
 
-Best CV Score: 0.7425523839186339
-Best Test Weighted F1: 0.7871580654828669
-Best Test Accuracy: 0.7881613622542064
-Weighted Precision: 0.7908361714875021
-Weighted Recall: 0.7881613622542064
+Best CV Score: 0.7434010824184092
+Best Test Weighted F1: 0.8623241242860278
+Best Test Accuracy: 0.8628628628628628
+Weighted Precision: 0.8655826792496973
+Weighted Recall: 0.8628628628628628
 
 Classification Report:
               precision    recall  f1-score   support
 
-  Irrelevant       0.82      0.66      0.74      2624
-    Negative       0.79      0.85      0.82      4463
-     Neutral       0.74      0.80      0.77      3589
-    Positive       0.82      0.78      0.80      4123
+  Irrelevant       0.89      0.77      0.82       171
+    Negative       0.83      0.92      0.87       266
+     Neutral       0.90      0.85      0.87       285
+    Positive       0.85      0.88      0.87       277
 
-    accuracy                           0.79     14799
-   macro avg       0.79      0.78      0.78     14799
-weighted avg       0.79      0.79      0.79     14799
+    accuracy                           0.86       999
+   macro avg       0.87      0.85      0.86       999
+weighted avg       0.87      0.86      0.86       999
