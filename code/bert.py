@@ -80,7 +80,8 @@ def train_sklearn_bert_model():
     # needs to pickle pipeline w/ encoder and model
     pipeline = {
         "model": best_model,
-        "label_encoder": encoder
+        "label_encoder": encoder,
+        "embedder": embedder
     }
     with open(model_path, "wb") as f:
         pickle.dump(pipeline, f)

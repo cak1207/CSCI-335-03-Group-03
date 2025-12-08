@@ -61,7 +61,7 @@ def main():
 
         if model_type == "bert":
             from sentence_transformers import SentenceTransformer
-            embedder = SentenceTransformer("all-MiniLM-L12-v2")
+            embedder = pipeline.get("embedder")
 
             X = embedder.encode(df["tweet_content"].tolist(), show_progress_bar=True)
             preds = model.predict(X)
