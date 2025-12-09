@@ -51,9 +51,9 @@ def main():
             path_1 = "data/twitter_validation.csv"
 
         if model_type == "svm":
-            path_2 = "svm_prediction_output"
+            path_2 = "svm_prediction_output.csv"
         elif model_type == "bert":
-            path_2 = "bert_prediction_output"
+            path_2 = "bert_prediction_output.csv"
 
         output_path = os.path.join("data", path_2) 
 
