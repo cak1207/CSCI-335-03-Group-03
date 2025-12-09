@@ -2,10 +2,7 @@ import sys
 import os
 import pickle
 
-import data_preprocessing
-import kagglehub
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score, f1_score, precision_score, recall_score
 import bert
 import svm
@@ -15,10 +12,17 @@ def main():
     print("Sentiment Analysis of Twitter Data:")
     print("Usage: python code/cli.py svm|bert train [training_path validation_path]\nor: python code/cli.py svm|bert test [validation_path]")
 
-    # needs to be dependedent on model type
-    if len(sys.argv) != 3 and len(sys.argv) != 4 and len(sys.argv) != 5:
-        print("Error: Command needs 3 or 5 arguments")
+    if len(sys.argv) < 3:
+        print("Error: Command needs at least 3 arguments")
         return
+    if sys.argv[2] == "train":
+        if len(sys.argv) != 3 and len(sys.argv) != 5:
+            print("Error: Command needs 3 or 5 arguments")
+            return
+    if sys.argv[2] == "test":
+        if len(sys.argv) != 3 and len(sys.argv) != 4:
+            print("Error: Command needs 3 or 4 arguments")
+            return
 
     model_type = sys.argv[1]
     if model_type != "svm" and model_type != "bert":
