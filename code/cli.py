@@ -34,7 +34,7 @@ def main():
         return
     path_1 = None
     path_2 = None
-    if sys.argv == 5:
+    if len(sys.argv) == 5:
         path_1 = sys.argv[3]
         path_2 = sys.argv[4]
 

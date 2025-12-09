@@ -25,8 +25,8 @@ To run the models use the cli.py
 Usage is python code/cli.py svm|bert train [train_path valid_path]
 or: python code/cli.py svm|bert train [valid_path]
 
-Example: python code/cli.py train svm
-or python code/cli.py test bert
+Example: python code/cli.py svm test
+or python code/cli.py bert train
 
 To train, make sure model_type is svm or bert, and that both input_path and output_path are .csv
 the input csv should have 4 columns each being "tweet_id", "entity", "sentiment", "tweet_content"
