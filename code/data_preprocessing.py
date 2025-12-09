@@ -23,6 +23,7 @@ def load_and_clean_data(train_path=None, valid_path=None):
 
 
     valid_df = pd.read_csv(valid_path, encoding="utf-8", engine="python", on_bad_lines="skip")
+    valid_df = valid_df.iloc[:, :4]
     valid_df.columns = ["tweet_id", "entity", "sentiment", "tweet_content"]
 
     return train_df, valid_df

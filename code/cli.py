@@ -1,6 +1,9 @@
 import sys
 import os
 import pickle
+
+import data_preprocessing
+import kagglehub
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score, f1_score, precision_score, recall_score
@@ -10,10 +13,11 @@ from sentence_transformers import SentenceTransformer
 
 def main():
     print("Sentiment Analysis of Twitter Data:")
-    print("Usage: python code/cli.py model_type train/test path_1 path_2")
+    print("Usage: python code/cli.py svm|bert train [training_path validation_path]\nor: python code/cli.py svm|bert test [validation_path]")
 
-    if len(sys.argv) != 5:
-        print("Error: Command needs 5 arguments")
+    # needs to be dependedent on model type
+    if len(sys.argv) != 3 and len(sys.argv) != 4 and len(sys.argv) != 5:
+        print("Error: Command needs 3 or 5 arguments")
         return
 
     model_type = sys.argv[1]
@@ -24,8 +28,11 @@ def main():
     if action_type != "train" and action_type != "test":
         print("Error: argument 2, '" + action_type + "' must be either 'train' or 'test'")
         return
-    path_1 = sys.argv[3]
-    path_2 = sys.argv[4]
+    path_1 = None
+    path_2 = None
+    if sys.argv == 5:
+        path_1 = sys.argv[3]
+        path_2 = sys.argv[4]
 
 
     if action_type == "train":
@@ -36,6 +43,14 @@ def main():
 
 
     if action_type == "test":
+        if path_1 is None:
+            path_1 = "data/twitter_validation.csv"
+
+        if model_type == "svm":
+            path_2 = "svm_prediction_output"
+        elif model_type == "bert":
+            path_2 = "bert_prediction_output"
+
         output_path = os.path.join("data", path_2) 
 
         df = pd.read_csv(path_1, encoding="utf-8", engine="python", on_bad_lines="skip")
