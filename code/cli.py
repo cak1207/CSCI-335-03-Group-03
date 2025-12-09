@@ -34,9 +34,11 @@ def main():
         return
     path_1 = None
     path_2 = None
-    if len(sys.argv) == 5:
+    if action_type == "train" and len(sys.argv) == 5:
         path_1 = sys.argv[3]
         path_2 = sys.argv[4]
+    elif action_type == "test" and len(sys.argv) == 4:
+        path_1 = sys.argv[3]
 
 
     if action_type == "train":
