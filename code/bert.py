@@ -77,8 +77,7 @@ def train_sklearn_bert_model(train_path=None, valid_path=None):
     print("Best Test Accuracy:", accuracy)
     print("Weighted Precision:", weighted_precision)
     print("Weighted Recall:", weighted_recall)
-    
-    print(classification_report(y_test, y_pred, target_names=encoder.classes_))
+    print(classification_report(y_valid, y_pred, target_names=encoder.classes_))
 
 
     # save model
@@ -96,13 +95,6 @@ def train_sklearn_bert_model(train_path=None, valid_path=None):
     }
     with open(model_path, "wb") as f:
         pickle.dump(pipeline, f)
-
-
-    
-
-
-
-
 
 
 if __name__ == "__main__":
